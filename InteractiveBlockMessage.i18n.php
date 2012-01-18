@@ -32,10 +32,11 @@ $messages['ast'] = array(
 );
 
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+ * @author EugeneZelenko
  * @author Wizardist
  */
 $messages['be-tarask'] = array(
-	'interactiveblockmessage-desc' => 'Даде новае магічнае слова <nowiki>{{USERBLOCKED}}</nowiki>, якое сьведчыць пра блякаваньне ўдзельніка.',
+	'interactiveblockmessage-desc' => 'Дадае новае магічнае слова <nowiki>{{USERBLOCKED}}</nowiki>, якое сьведчыць пра блякаваньне ўдзельніка.',
 );
 
 /** German (Deutsch)
