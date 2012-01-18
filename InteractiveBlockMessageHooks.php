@@ -7,16 +7,6 @@
  */
 class InteractiveBlockMessageHooks {
 	/**
-	 * @param $magicWords array
-	 * @param $ln string (language)
-	 * @return bool
-	 */
-	public static function magicWordVar( array &$magicWords, $ln ) {
-		$magicWords['USERBLOCKED'] = array( 1, 'USERBLOCKED' );
-		return true;
-	}
-
-	/**
 	 * @param $vars array
 	 * @return bool
 	 */

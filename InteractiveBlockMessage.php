@@ -28,7 +28,7 @@ $dir = dirname( __FILE__ );
 $wgAutoloadClasses['InteractiveBlockMessageHooks'] = "$dir/InteractiveBlockMessageHooks.php";
 
 $wgExtensionMessagesFiles['InteractiveBlockMessage'] = "$dir/InteractiveBlockMessage.i18n.php";
+$wgExtensionMessagesFiles['InteractiveBlockMessageMagic'] = "$dir/InteractiveBlockMessage.i18n.magic.php";
 
-$wgHooks['LanguageGetMagic'][] = 'InteractiveBlockMessageHooks::magicWordVar';
 $wgHooks['MagicWordwgVariableIDs'][] = 'InteractiveBlockMessageHooks::magicWordSet';
 $wgHooks['ParserGetVariableValueSwitch'][] = 'InteractiveBlockMessageHooks::parserGetVariable';
