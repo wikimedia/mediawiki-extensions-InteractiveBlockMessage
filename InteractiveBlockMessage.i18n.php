@@ -67,6 +67,13 @@ $messages['gl'] = array(
 	'interactiveblockmessage-desc' => 'Crea a nova palabra máxica <nowiki>{{USERBLOCKED}}</nowiki> que, no espazo de nomes de usuario, indica se o usuario está bloqueado ou non',
 );
 
+/** Hebrew (עברית)
+ * @author Amire80
+ */
+$messages['he'] = array(
+	'interactiveblockmessage-desc' => 'יצירת מילת הקסם החדשה <nowiki>{{USERBLOCKED}}</nowiki> שכשהיא מופיעה במרחב משתמש, מציינת אם המשתמש חסום או לא',
+);
+
 /** Upper Sorbian (Hornjoserbsce)
  * @author Michawiki
  */
