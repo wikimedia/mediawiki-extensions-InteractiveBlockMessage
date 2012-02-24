@@ -53,6 +53,13 @@ $messages['dsb'] = array(
 	'interactiveblockmessage-desc' => 'Napórajo nowe magiske słowo <nowiki>{{USERBLOCKED}}</nowiki>, kótarež pódawa, lěc wužywaŕ jo zablokěrowany abo nic',
 );
 
+/** Spanish (Español)
+ * @author Armando-Martin
+ */
+$messages['es'] = array(
+	'interactiveblockmessage-desc' => 'Crea una nueva palabra mágica <nowiki>{{USERBLOCKED}}</nowiki> que, si está en el espacio de usuarios, indica si el usuario está bloqueado o no',
+);
+
 /** French (Français)
  * @author Gomoko
  */
