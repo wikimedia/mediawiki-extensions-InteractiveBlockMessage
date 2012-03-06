@@ -60,6 +60,13 @@ $messages['es'] = array(
 	'interactiveblockmessage-desc' => 'Crea una nueva palabra mágica <nowiki>{{USERBLOCKED}}</nowiki> que, si está en el espacio de usuarios, indica si el usuario está bloqueado o no',
 );
 
+/** Persian (فارسی)
+ * @author ZxxZxxZ
+ */
+$messages['fa'] = array(
+	'interactiveblockmessage-desc' => 'عبارت جادویی جدید <nowiki>{{USERBLOCKED}}</nowiki> را تعریف می‌کند که در فضای نام کاربری مشخص می‌کند که کاربر بسته است یا نه',
+);
+
 /** French (Français)
  * @author Gomoko
  */
