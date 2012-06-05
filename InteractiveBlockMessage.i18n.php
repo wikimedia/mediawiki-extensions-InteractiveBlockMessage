@@ -130,6 +130,13 @@ $messages['ko'] = array(
 	'interactiveblockmessage-desc' => '사용자 이름공간에서 차단되었는지 여부를 판별하는 <nowiki>{{USERBLOCKED}}</nowiki> 매직 워드를 추가',
 );
 
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'interactiveblockmessage-desc' => 'Deiht e neu Zauberwoot <nowiki>{{USERBLOCKED}}</nowiki> en et Wiki, wat aanjitt, of ene Metmaacher jeschpärt is udder nit.',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
