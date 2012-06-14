@@ -24,7 +24,7 @@ $messages['qqq'] = array(
 	'interactiveblockmessage-desc' => '{{desc}}',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -53,7 +53,7 @@ $messages['dsb'] = array(
 	'interactiveblockmessage-desc' => 'Napórajo nowe magiske słowo <nowiki>{{USERBLOCKED}}</nowiki>, kótarež pódawa, lěc wužywaŕ jo zablokěrowany abo nic',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  */
 $messages['es'] = array(
@@ -67,7 +67,7 @@ $messages['fa'] = array(
 	'interactiveblockmessage-desc' => 'عبارت جادویی جدید <nowiki>{{USERBLOCKED}}</nowiki> را تعریف می‌کند که در فضای نام کاربری مشخص می‌کند که کاربر بسته است یا نه',
 );
 
-/** French (Français)
+/** French (français)
  * @author Gomoko
  */
 $messages['fr'] = array(
@@ -95,21 +95,21 @@ $messages['hsb'] = array(
 	'interactiveblockmessage-desc' => 'Wutworja nowe magiske słowo <nowiki>{{USERBLOCKED}}</nowiki>, kotrež podawa, hač wužiwar je zablokowany abo nic',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dj
  */
 $messages['hu'] = array(
 	'interactiveblockmessage-desc' => 'Egy új varázsszót vezet be (<nowiki>{{USERBLOCKED}}</nowiki>), amelyik a felhasználói névtérben jelzi, hogy a felhasználó blokkolva van-e',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
 	'interactiveblockmessage-desc' => 'Crea un nove parola magic <nowiki>{{USERBLOCKED}}</nowiki> le qual, si in spatio de usator, indica si le usator es blocate o non',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  */
 $messages['it'] = array(
@@ -144,7 +144,7 @@ $messages['lb'] = array(
 	'interactiveblockmessage-desc' => 'Setzt dat magescht Wuert <nowiki>{{USERBLOCKED}}</nowiki> derbäi, dat weist wann et am Benotzerraum steet weist ob e Benotzer gespaart ass oder net',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -165,7 +165,7 @@ $messages['nl'] = array(
 	'interactiveblockmessage-desc' => 'Voegt het magische woord <nowiki>{{USERBLOCKED}}</nowiki> toe dat binnen de gebruikersruimte aangeeft of de gebruiker geblokkeerd is of niet',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Woytecr
  */
 $messages['pl'] = array(
@@ -180,7 +180,7 @@ $messages['pms'] = array(
 	'interactiveblockmessage-desc' => "A crea la paròla màgica neuva <nowiki>{{USERBLOCKED}}</nowiki> che se a l'é ant lë spassi utent a mostra se l'utent a l'é blocà o nò",
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
