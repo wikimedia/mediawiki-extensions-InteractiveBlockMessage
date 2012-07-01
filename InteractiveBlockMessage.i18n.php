@@ -31,7 +31,7 @@ $messages['ast'] = array(
 	'interactiveblockmessage-desc' => "Crea la nueva pallabra máxica <nowiki>{{USERBLOCKED}}</nowiki> que si tas nel espaciu de nomes d'usuariu, indica si l'usuariu ta bloquiáu o non",
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Wizardist
  */
@@ -46,7 +46,7 @@ $messages['de'] = array(
 	'interactiveblockmessage-desc' => 'Ergänzt das „magische Wort“ <nowiki>{{USERBLOCKED}}</nowiki>, das anzeigt, ob ein Benutzer gesperrt ist oder nicht',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -74,7 +74,7 @@ $messages['fr'] = array(
 	'interactiveblockmessage-desc' => "Crée le nouveau mot magique <nowiki>{{USERBLOCKED}}</nowiki> qui, s'il est dans l'espace utilisateur, indique si l'utilisateur est bloqué ou non",
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -88,7 +88,7 @@ $messages['he'] = array(
 	'interactiveblockmessage-desc' => 'יצירת מילת הקסם החדשה <nowiki>{{USERBLOCKED}}</nowiki> שכשהיא מופיעה במרחב משתמש, מציינת אם המשתמש חסום או לא',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
