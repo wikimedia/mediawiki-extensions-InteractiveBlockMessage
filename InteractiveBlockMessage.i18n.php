@@ -187,3 +187,10 @@ $messages['ru'] = array(
 	'interactiveblockmessage-desc' => 'Создает новое волшебное слово <nowiki>{{USERBLOCKED}}</nowiki>, присутствие которого на странице участника говорит блокировке данного участника.',
 );
 
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'interactiveblockmessage-desc' => 'Lumilikha ng bagong salitang masalamangka na <nowiki>{{USERBLOCKED}}</nowiki> na kapag nasa puwang ng tagagamit ay nagpapahiwatig kung ang tagagamit ay hinadlangan o hindi',
+);
+
