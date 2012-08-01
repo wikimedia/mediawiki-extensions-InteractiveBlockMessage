@@ -180,6 +180,13 @@ $messages['pms'] = array(
 	'interactiveblockmessage-desc' => "A crea la paròla màgica neuva <nowiki>{{USERBLOCKED}}</nowiki> che se a l'é ant lë spassi utent a mostra se l'utent a l'é blocà o nò",
 );
 
+/** Portuguese (português)
+ * @author Hamilton Abreu
+ */
+$messages['pt'] = array(
+	'interactiveblockmessage-desc' => 'Cria a nova palavra mágica <nowiki>{{USERBLOCKED}}</nowiki> que, no espaço nominal dos utilizadores, indica se o utilizador está bloqueado ou não',
+);
+
 /** Russian (русский)
  * @author Александр Сигачёв
  */
