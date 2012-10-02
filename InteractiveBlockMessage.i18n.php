@@ -31,7 +31,7 @@ $messages['ast'] = array(
 	'interactiveblockmessage-desc' => "Crea la nueva pallabra máxica <nowiki>{{USERBLOCKED}}</nowiki> que si tas nel espaciu de nomes d'usuariu, indica si l'usuariu ta bloquiáu o non",
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Wizardist
  */
