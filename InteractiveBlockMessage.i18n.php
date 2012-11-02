@@ -200,3 +200,10 @@ $messages['ru'] = array(
 $messages['tl'] = array(
 	'interactiveblockmessage-desc' => 'Lumilikha ng bagong salitang masalamangka na <nowiki>{{USERBLOCKED}}</nowiki> na kapag nasa puwang ng tagagamit ay nagpapahiwatig kung ang tagagamit ay hinadlangan o hindi',
 );
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Yfdyh000
+ */
+$messages['zh-hans'] = array(
+	'interactiveblockmessage-desc' => '创建新的魔术字 <nowiki>{{USERBLOCKED}}</nowiki> ，在用户空间上显示用户是否被封禁',
+);
