@@ -207,3 +207,10 @@ $messages['tl'] = array(
 $messages['zh-hans'] = array(
 	'interactiveblockmessage-desc' => '创建新的魔术字 <nowiki>{{USERBLOCKED}}</nowiki> ，在用户空间上显示用户是否被封禁',
 );
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Justincheng12345
+ */
+$messages['zh-hant'] = array(
+	'interactiveblockmessage-desc' => '創建新魔術字<nowiki>{{USERBLOCKED}}</nowiki>，於用戶空間上顯示該用戶有否被封禁',
+);
