@@ -201,6 +201,13 @@ $messages['tl'] = array(
 	'interactiveblockmessage-desc' => 'Lumilikha ng bagong salitang masalamangka na <nowiki>{{USERBLOCKED}}</nowiki> na kapag nasa puwang ng tagagamit ay nagpapahiwatig kung ang tagagamit ay hinadlangan o hindi',
 );
 
+/** Ukrainian (українська)
+ * @author Base
+ */
+$messages['uk'] = array(
+	'interactiveblockmessage-desc' => 'Створює нове магічне слово <nowiki>{{USERBLOCKED}}</nowiki>, наявність якого на сторінці користувача вказує заблоковано користувача чи ні',
+);
+
 /** Simplified Chinese (中文（简体）‎)
  * @author Yfdyh000
  */
