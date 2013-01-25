@@ -187,6 +187,13 @@ $messages['pt'] = array(
 	'interactiveblockmessage-desc' => 'Cria a nova palavra mágica <nowiki>{{USERBLOCKED}}</nowiki> que, no espaço nominal dos utilizadores, indica se o utilizador está bloqueado ou não',
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'interactiveblockmessage-desc' => "ccreje 'na parole maggeche nove <nowiki>{{USERBLOCKED}}</nowiki> 'a quale ce sus a 'nu spazie utende indiche ce l'utende jè bloccate o none",
+);
+
 /** Russian (русский)
  * @author Александр Сигачёв
  */
