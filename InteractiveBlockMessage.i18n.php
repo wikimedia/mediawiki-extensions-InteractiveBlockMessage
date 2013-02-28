@@ -19,9 +19,10 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Petr Bena
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'interactiveblockmessage-desc' => '{{desc}}',
+	'interactiveblockmessage-desc' => '{{desc|name=Interactive Block Message|url=http://www.mediawiki.org/wiki/Extension:InteractiveBlockMessage}}',
 );
 
 /** Asturian (asturianu)
