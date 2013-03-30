@@ -126,9 +126,10 @@ $messages['ja'] = array(
 
 /** Korean (한국어)
  * @author Kwj2772
+ * @author 아라
  */
 $messages['ko'] = array(
-	'interactiveblockmessage-desc' => '사용자 이름공간에서 차단되었는지 여부를 판별하는 <nowiki>{{USERBLOCKED}}</nowiki> 매직 워드를 추가',
+	'interactiveblockmessage-desc' => '사용자 이름공간에서 차단되었는지 여부를 판별하는 <nowiki>{{USERBLOCKED}}</nowiki> 특수 명령을 추가합니다',
 );
 
 /** Colognian (Ripoarisch)
