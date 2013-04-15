@@ -160,6 +160,12 @@ $messages['ms'] = array(
 	'interactiveblockmessage-desc' => 'Mewujudkan kata sakti baru <nowiki>{{USERBLOCKED}}</nowiki> untuk menunjukkan sama ada seseorang pengguna disekat atau tidak di sesebuah ruang pengguna',
 );
 
+/** Norwegian Bokmål (norsk bokmål)
+ */
+$messages['nb'] = array(
+	'interactiveblockmessage-desc' => 'Oppretter et nytt magisk ord <code><nowiki>{{USERBLOCKED}}</nowiki></code> som, om den brukes i brukernavnerommet, indikerer hvorvidt brukeren er blokkert eller ikke.',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
