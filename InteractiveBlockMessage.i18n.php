@@ -195,6 +195,13 @@ $messages['pt'] = array(
 	'interactiveblockmessage-desc' => 'Cria a nova palavra mágica <nowiki>{{USERBLOCKED}}</nowiki> que, no espaço nominal dos utilizadores, indica se o utilizador está bloqueado ou não',
 );
 
+/** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
+ */
+$messages['pt-br'] = array(
+	'interactiveblockmessage-desc' => 'Cria uma nova palavra mágica <nowiki>{{USERBLOCKED}}</nowiki> que, no domínio usuário, indica se o usuário está bloqueado ou não',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
