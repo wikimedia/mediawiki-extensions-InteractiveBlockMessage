@@ -61,6 +61,13 @@ $messages['es'] = array(
 	'interactiveblockmessage-desc' => 'Crea una nueva palabra mágica <nowiki>{{USERBLOCKED}}</nowiki> que, si está en el espacio de usuarios, indica si el usuario está bloqueado o no',
 );
 
+/** Basque (euskara)
+ * @author Theklan
+ */
+$messages['eu'] = array(
+	'interactiveblockmessage-desc' => '<nowiki>{{USERBLOCKED}}</nowiki> hitz magiko berria sortzen du, lankide baten orrialdean erabilita esaten du ea blokeatuta dagoen edo ez.',
+);
+
 /** Persian (فارسی)
  * @author ZxxZxxZ
  */
