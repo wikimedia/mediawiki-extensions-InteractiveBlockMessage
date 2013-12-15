@@ -151,7 +151,7 @@ $messages['ksh'] = array(
  * @author Soued031
  */
 $messages['lb'] = array(
-	'interactiveblockmessage-desc' => 'Setzt dat magescht Wuert <nowiki>{{USERBLOCKED}}</nowiki> dobäi, dat weist wann et am Benotzerraum steet weist ob e Benotzer gespaart ass oder net',
+	'interactiveblockmessage-desc' => 'Setzt dat magescht Wuert <nowiki>{{USERBLOCKED}}</nowiki> derbäi, dat weist wann et am Benotzerraum steet weist ob e Benotzer gespaart ass oder net',
 );
 
 /** Macedonian (македонски)
