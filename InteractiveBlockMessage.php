@@ -17,7 +17,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Interactive block message',
-	'version' => '1.0.0',
+	'version' => '1.1.0',
 	'author' => array( 'Petr Bena' ),
 	'descriptionmsg' => 'interactiveblockmessage-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:InteractiveBlockMessage',
@@ -27,6 +27,7 @@ $dir = dirname( __FILE__ );
 
 $wgAutoloadClasses['InteractiveBlockMessageHooks'] = "$dir/InteractiveBlockMessageHooks.php";
 
+$wgMessagesDirs['InteractiveBlockMessage'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['InteractiveBlockMessage'] = "$dir/InteractiveBlockMessage.i18n.php";
 $wgExtensionMessagesFiles['InteractiveBlockMessageMagic'] = "$dir/InteractiveBlockMessage.i18n.magic.php";
 
