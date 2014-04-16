@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Michawiki"
-        ]
-    },
-    "interactiveblockmessage-desc": "Wutworja nowe magiske słowo <nowiki>{{USERBLOCKED}}</nowiki>, kotrež podawa, hač wužiwar je zablokowany abo nic"
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"interactiveblockmessage-desc": "Wutworja nowe magiske słowo <nowiki>{{USERBLOCKED}}</nowiki>, kotrež podawa, hač wužiwar je zablokowany abo nic"
 }

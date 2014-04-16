@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Kwj2772",
-            "아라"
-        ]
-    },
-    "interactiveblockmessage-desc": "사용자 이름공간에서 차단되었는지 여부를 판별하는 <nowiki>{{USERBLOCKED}}</nowiki> 특수 명령을 추가합니다"
+	"@metadata": {
+		"authors": [
+			"Kwj2772",
+			"아라"
+		]
+	},
+	"interactiveblockmessage-desc": "사용자 이름공간에서 차단되었는지 여부를 판별하는 <nowiki>{{USERBLOCKED}}</nowiki> 특수 명령을 추가합니다"
 }
