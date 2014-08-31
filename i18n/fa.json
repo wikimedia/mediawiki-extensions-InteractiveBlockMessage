@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"ZxxZxxZ"
+			"ZxxZxxZ",
+			"Alirezaaa"
 		]
 	},
-	"interactiveblockmessage-desc": "عبارت جادویی جدید <nowiki>{{USERBLOCKED}}</nowiki> را تعریف می‌کند که در فضای نام کاربری مشخص می‌کند که کاربر بسته است یا نه"
+	"interactiveblockmessage-desc": "عبارت جادویی تازه <nowiki>{{USERBLOCKED}}</nowiki> را تعریف می‌کند که در فضای نام کاربری مشخص می‌کند که کاربر بسته است یا نه"
 }
