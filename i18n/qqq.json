@@ -2,8 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Petr Bena",
-			"Shirayuki"
+			"Shirayuki",
+			"Umherirrender"
 		]
 	},
-	"interactiveblockmessage-desc": "{{desc|name=Interactive Block Message|url=http://www.mediawiki.org/wiki/Extension:InteractiveBlockMessage}}"
+	"interactiveblockmessage-desc": "{{desc|name=Interactive Block Message|url=https://www.mediawiki.org/wiki/Extension:InteractiveBlockMessage}}"
 }
