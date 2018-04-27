@@ -9,26 +9,16 @@
  * @link http://www.mediawiki.org/wiki/Extension:InteractiveBlockMessage Documentation
  */
 
-if ( !defined( 'MEDIAWIKI' ) ) {
-	echo "This is a part of mediawiki and can't be started separately";
-	die();
+if ( function_exists( 'wfLoadExtension' ) ) {
+	wfLoadExtension( 'InteractiveBlockMessage' );
+	// Keep i18n globals so mergeMessageFileList.php doesn't break
+	$wgMessagesDirs['InteractiveBlockMessage'] = __DIR__ . '/i18n';
+	wfWarn(
+		'Deprecated PHP entry point used for the InteractiveBlockMessage extension. ' .
+		'Please use wfLoadExtension instead, ' .
+		'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
+	);
+	return;
+} else {
+	die( 'This version of the InteractiveBlockMessage extension requires MediaWiki 1.25+' );
 }
-
-$wgExtensionCredits['other'][] = array(
-	'path' => __FILE__,
-	'name' => 'Interactive block message',
-	'version' => '1.1.0',
-	'author' => array( 'Petr Bena' ),
-	'descriptionmsg' => 'interactiveblockmessage-desc',
-	'url' => 'https://www.mediawiki.org/wiki/Extension:InteractiveBlockMessage',
-);
-
-$dir = dirname( __FILE__ );
-
-$wgAutoloadClasses['InteractiveBlockMessageHooks'] = "$dir/InteractiveBlockMessageHooks.php";
-
-$wgMessagesDirs['InteractiveBlockMessage'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['InteractiveBlockMessageMagic'] = "$dir/InteractiveBlockMessage.i18n.magic.php";
-
-$wgHooks['MagicWordwgVariableIDs'][] = 'InteractiveBlockMessageHooks::magicWordSet';
-$wgHooks['ParserGetVariableValueSwitch'][] = 'InteractiveBlockMessageHooks::parserGetVariable';
