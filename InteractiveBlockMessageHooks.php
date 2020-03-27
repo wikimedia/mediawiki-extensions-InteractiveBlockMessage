@@ -19,26 +19,26 @@ class InteractiveBlockMessageHooks {
 	 * Function check if user is blocked, return true
 	 * user blocked status is passed to $ret
 	 * @param $parser Parser
-	 * @param $varCache ??
+	 * @param &$varCache ??
 	 * @param $index ??
-	 * @param $ret string?
+	 * @param &$ret string?
 	 * @return bool
 	 */
-	public static function parserGetVariable( &$parser, &$varCache, &$index, &$ret ) {
+	public static function parserGetVariable( $parser, &$varCache, $index, &$ret ) {
 		if ( $index != 'USERBLOCKED' ) {
 			return true;
 		}
 
 		$title = $parser->getTitle();
 		if ( $title->getNamespace() != NS_USER && $title->getNamespace() != NS_USER_TALK ) {
-			$ret = 'unknown';
+			$ret = $varCache[$index] = 'unknown';
 			return true;
 		}
 
 		$user = User::newFromName( $title->getBaseText() );
 		if ( $user instanceof User ) {
 			if ( !$user->isBlocked() ) {
-				$ret = 'false';
+				$ret = $varCache[$index] = 'false';
 				return true;
 			}
 			// if user is blocked it's pretty much possible they will be unblocked one day :)
@@ -52,10 +52,10 @@ class InteractiveBlockMessageHooks {
 					$parser->getOutput()->updateCacheExpiry( $expiry );
 				}
 			}
-			$ret = 'true';
+			$ret = $varCache[$index] = 'true';
 			return true;
 		}
-		$ret = 'unknown';
+		$ret = $varCache[$index] = 'unknown';
 		return true;
 	}
 }
