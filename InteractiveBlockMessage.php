@@ -5,7 +5,7 @@
  * @file
  * @ingroup Extensions
  * @author Petr Bena <benapetr@gmail.com>
- * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
+ * @license GPL-2.0-or-later
  * @link https://www.mediawiki.org/wiki/Extension:InteractiveBlockMessage Documentation
  */
 
