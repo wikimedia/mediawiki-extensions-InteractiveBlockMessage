@@ -35,7 +35,7 @@ class InteractiveBlockMessageHooks {
 
 		$user = User::newFromName( $title->getBaseText() );
 		if ( $user instanceof User ) {
-			if ( !$user->isBlocked() ) {
+			if ( !$user->getBlock() ) {
 				$ret = $varCache[$index] = 'false';
 				return true;
 			}
