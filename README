@@ -4,7 +4,7 @@ indicate the blocked status of that user.
 
 To install, add the following to your LocalSettings.php:
 
-require_once( "$IP/extensions/InteractiveBlockMessage/InteractiveBlockMessage.php" );
+wfLoadExtension( 'InteractiveBlockMessage' );
 
 See https://www.mediawiki.org/wiki/Extension:InteractiveBlockMessage for further documentation.
 
