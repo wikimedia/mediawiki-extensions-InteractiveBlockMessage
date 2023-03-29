@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gomoko"
+			"Gomoko",
+			"Verdy p"
 		]
 	},
-	"interactiveblockmessage-desc": "Crée le nouveau mot magique <nowiki>{{USERBLOCKED}}</nowiki> qui, s'il est dans l'espace utilisateur, indique si l'utilisateur est bloqué ou non"
+	"interactiveblockmessage-desc": "Crée le nouveau mot magique <nowiki>{{USERBLOCKED}}</nowiki> qui, s’il est dans l’espace utilisateur, indique si l’utilisateur est bloqué ou non"
 }
